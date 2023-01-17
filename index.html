@@ -9,18 +9,26 @@
       rel="icon"
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/sun-behind-cloud_26c5.png"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="input flex">
-      <input type="text" class="inputValue" placeholder="Enter a city" />
-      <input type="submit" value="Submit" class="button" />
+    <div class="top-container">
+      <input
+        type="text"
+        class="input-box"
+        id="inputValue"
+        placeholder="Enter a city"
+      />
+      <button id="submit" class="submit-button">Submit</button>
     </div>
 
-    <div class="display">
+    <div class="bottom-container" id="display">
       <h1 class="name"></h1>
       <p class="desc"></p>
       <p class="temp"></p>
+      <p class="symbol">
+        <img src="" alt="" id="weather-icon" />
+      </p>
     </div>
 
     <script src="app.js"></script>
