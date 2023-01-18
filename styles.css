@@ -31,7 +31,7 @@ body {
   background-color: #e27d60;
   color: white;
   border-radius: 7px;
-  margin-top: 8em;
+  margin-top: 9em;
   width: 20em;
   box-shadow: 10px 10px 10px black;
 }
@@ -40,6 +40,18 @@ h1 {
   font-weight: 500;
   position: absolute;
   padding: 10px 10px 10px;
+}
+
+.desc {
+  padding-left: 10em;
+  margin-top: 20px;
+  font-size: large;
+}
+
+.temp {
+  padding-left: 10em;
+  padding-top: 10px;
+  font-size: large;
 }
 
 .input-box {

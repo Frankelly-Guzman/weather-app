@@ -21,7 +21,7 @@ button.addEventListener("click", function () {
       const symValue = dataSource["weather"]["icon"];
 
       cityName.innerHTML = nameValue;
-      temp.innerHTML = tempValue;
+      temp.innerHTML = tempValue + " °F";
       desc.innerHTML = descValue;
 
       icon.src =
