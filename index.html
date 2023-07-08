@@ -12,23 +12,26 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="top-container">
-      <input
-        type="text"
-        class="input-box"
-        id="inputValue"
-        placeholder="Enter a city"
-      />
-      <button id="submit" class="submit-button">Submit</button>
-    </div>
+    <div class="container">
+      <div class="header">
+        <h1>Weather App</h1>
+      </div>
+      <div class="top-container">
+        <input
+          type="text"
+          class="input-box"
+          id="inputValue"
+          placeholder="Enter a city"
+        />
+        <button id="submit" class="submit-button">Submit</button>
+      </div>
 
-    <div class="bottom-container" id="display">
-      <h1 class="name"></h1>
-      <p class="desc"></p>
-      <p class="temp"></p>
-      <p class="symbol">
-        <img src="" alt="" id="weather-icon" />
-      </p>
+      <div class="bottom-container" id="display">
+        <h1 class="name"></h1>
+        <p class="desc"></p>
+        <p class="temp"></p>
+        <img id="weather-icon" src="" alt="Weather Icon" />
+      </div>
     </div>
 
     <script src="app.js"></script>
