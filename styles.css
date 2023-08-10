@@ -16,7 +16,8 @@ body {
 
 .header {
   text-align: center;
-  margin-top: 3em;
+  padding: 1em 0; /* Add padding to provide spacing above the title */
+  color: black;
 }
 
 .container {
@@ -28,12 +29,19 @@ body {
   background-color: #eaf0f6;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
 .top-container {
   position: relative;
   width: 20em;
   border: 1px solid #2374aa;
   border-radius: 7px;
-  /* background-color: #41b3a3; */
   background-color: #4b97d1;
   border-color: white;
   justify-content: center;
@@ -43,7 +51,8 @@ body {
   animation: fade-in 0.5s ease-in-out;
   height: fit-content;
   flex-direction: column;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out; /* Adjust transition property */
+  transform: none; /* Remove translateY transformation */
 }
 
 .bottom-container {
